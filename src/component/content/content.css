@@ -1,0 +1,23 @@
+.content{
+
+    flex: 1;
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    height: fit-content;
+    
+}
+.list-product{
+
+    height: 90%;
+    background-color:aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page{
+    height: 10%;
+   
+    
+}

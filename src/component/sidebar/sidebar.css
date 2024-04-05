@@ -1,0 +1,81 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    width: 450px;
+    height: calc(100vh - 120px);
+}
+.search{
+    width: 410px;
+    height: 82px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    
+}
+.search-product{
+    display: block;
+    margin-top: 36px;
+    margin-left: 25px;
+    height: 19px;
+    width: 226px;
+    border-radius: 5px;
+    
+}
+
+
+.size{
+    width: 410px;
+    height: 171px;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+    
+}
+.list-size{
+    display: flex;
+    list-style-type:none ;
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+li{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.price-search{
+    width: 410px;
+    height: 82px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+    
+}
+.select-price{
+
+    width: 250px;
+    height: 35px;
+    display: block;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+.freeship-check{
+
+    width: 410px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+.check-freeship{
+    margin-left: 20px;
+}
