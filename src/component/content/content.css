@@ -1,22 +1,31 @@
 .content{
 
     flex: 1;
-    
+   
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 20px;
-    height: fit-content;
+    overflow-y: scroll;
+    
+    
+    
     
 }
 .list-product{
 
-    height: 90%;
+    height: fit-content;
     background-color:aliceblue;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+    
+    
+
 }
 
 .page{
+    background-color:aliceblue;
     height: 10%;
    
     

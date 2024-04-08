@@ -8,11 +8,12 @@ import { Container } from './component/container/container';
 function App() {
   return (
    <>
- 
+  <div className='shopping-cart'>
    <Header/>
    <Container/>
-   
+   </div>
    </>
+  
   );
 }
 
