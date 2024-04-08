@@ -33,7 +33,7 @@ export const Sidebar=()=>{
     </div>
     <div className="freeship-check">
     <b>Free ship</b>
-    <input type="checkbox" className="check-freeship"/>
+    <input className="check-freeship" type="checkbox"/>
     
     </div>
 

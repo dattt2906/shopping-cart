@@ -44,11 +44,14 @@ li{
     width:50px;
     height: 50px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: #D9D9D9;
     text-align: center;
     line-height: 45px;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+li:hover{
+    background-color: #1F9E67;
 }
 .price-search{
     width: 410px;
@@ -79,3 +82,8 @@ li{
 .check-freeship{
     margin-left: 20px;
 }
+
+.check-freeship input:checked {
+    background-color: #1F9E67;
+}
+

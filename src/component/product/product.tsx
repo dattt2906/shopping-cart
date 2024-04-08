@@ -1,13 +1,27 @@
 import "./product.css"
-export const Product=()=>{
+import { TProduct } from "../../typeProduct/type"
+import { Products } from "../Data/data"
 
+
+interface ProductProps{
+    product:TProduct
+}
+export const Product=({product}:ProductProps)=>{
+    const addToModalCart=()=>{
+
+
+        
+    }
+    
     return(
         <>
         <div className="product">
-            <div><img src="model.png" className="model-photo"></img></div>
-            <div>  <b>Product Name</b></div>
-             <div> <b>$26</b></div>
-                <div className="btn-cart"><button className="btn-add-cart">Add To Cart</button></div>
+            <div  className="model-photo"><img src={product.src}></img></div>
+            
+            <div className="name-product"><b>{product.title}</b></div>
+            <hr className="line-tag"></hr>
+             <div className="price-product">$<b>{product.price}</b></div>
+                <div className="btn-cart"><button className="btn-add-cart" onClick={addToModalCart}>Add To Cart</button></div>
             
         </div>
         
