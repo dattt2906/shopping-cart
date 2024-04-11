@@ -1,6 +1,13 @@
 import "./header.css"
 import { ProductDetails } from "./productDetails";
+import { useContext } from "react";
+import Context from "../../store/Context";
+import { Product } from "../product/product";
 export const Header = () => {
+
+    const [state,dispatch] = useContext(Context)
+    console.log("state at header:", state)
+
     const showCartModal = () => {
         var content = document.querySelector(".Show-Modal-Cart") as  HTMLElement;
         if (content) {
@@ -43,14 +50,7 @@ export const Header = () => {
                 </div>
                 <div className="content-modal-cart">
                     <div className="list-product-detail">
-                        <ProductDetails/>
-                        <ProductDetails/>
-                        <ProductDetails/>
-                        <ProductDetails/>
-                        <ProductDetails/>
-                        <ProductDetails/>
-                        <ProductDetails/>
-                        <ProductDetails/>
+                        
                         
                     </div>
                 </div>
